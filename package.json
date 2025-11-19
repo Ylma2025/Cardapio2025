@@ -1,0 +1,13 @@
+json
+{
+  "name": "cardapio-ylma",
+  "version": "1.0.0",
+  "description": "Cardápio automático Ylma Cake's",
+  "scripts": {
+    "build": "node scripts/process-csv.js && node scripts/generate-qrcode.js"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.3",
+    "csv-parser": "^3.0.0"
+  }
+}
